@@ -2,13 +2,15 @@ import React from 'react'
 
 const RATIO = 954 / 549.86
 
-printlog(id){
-  console.log(id);
+var printlog = (testtext) => {
+ console.log(testtext);
 }
 
 var Finance = props => {
   var height = props.size || 50
   var width = height * RATIO
+
+
   return (
     <svg id="02a143c3-6017-4373-a226-06a05c845178" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink" width={width} height={height} viewBox="0 0 954 549.86">
